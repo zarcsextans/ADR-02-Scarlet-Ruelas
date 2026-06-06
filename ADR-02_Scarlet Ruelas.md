@@ -75,3 +75,21 @@ Vista de Despliegue: Define cómo interactúan el ejecutable de la consola, el O
 - **Deuda o riesgo: Si el sistema crece significativamente, los diagramas pueden requerir mantenimiento constante para mantenerse actualizados, lo que puede generar inconsistencias entre la documentación y la implementación real si no se gestionan adecuadamente.
 
 ---
+
+## Diagramas
+
+### Vista lógica
+<img width="3315" height="3688" alt="Loan Domain Management-2026-06-06-050815" src="https://github.com/user-attachments/assets/cda29900-f8f9-413b-8076-3eb9b932546a" />
+
+### Vista Física
+<img width="5545" height="5264" alt="Loan Domain Management-2026-06-06-052057" src="https://github.com/user-attachments/assets/ded183be-c2e2-4c5f-9af3-fb6d1a0b0397" />
+
+### Vista de despliegue
+<img width="3095" height="3625" alt="Loan Domain Management-2026-06-06-040259" src="https://github.com/user-attachments/assets/6e09ee0c-fdce-49ba-93ef-c75736a4d54c" />
+
+### Vista de procesos
+
+<img width="8192" height="3633" alt="Loan Domain Management-2026-06-06-040216" src="https://github.com/user-attachments/assets/e889604f-4e45-4454-bb0a-c1980a505468" />
+
+## Clausula de IA
+#### Parte de la documentación, diagramas y redacción de las vistas arquitectónicas de este proyecto fue hecha con ayuda de la IA
