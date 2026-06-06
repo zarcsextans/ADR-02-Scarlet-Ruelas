@@ -61,3 +61,17 @@ Vista de Despliegue: Define cómo interactúan el ejecutable de la consola, el O
 | No incluir vista de procesos y enfocarse solo en estructura del sistema | Se descartó porque la vista de procesos es clave para entender el comportamiento en tiempo de ejecución del sistema. |
 
 ---
+
+## Consecuencias
+
+** Lo que gano:**
+
+- Consecuencia técnica: La separación en cuatro vistas arquitectónicas facilita la comprensión, mantenimiento y escalabilidad del sistema, ya que cada parte (lógica, procesos, despliegue y física) se puede analizar y modificar de forma independiente sin afectar directamente las demás.
+- Consecuencia sobre el proceso/equipo: El desarrollo se vuelve más ordenado y estructurado, ya que el equipo (o el desarrollador) cuenta con una guía clara de cómo está organizado el sistema, reduciendo confusiones y mejorando la toma de decisiones durante la implementación.
+
+** Lo que sacrifico o asumo:**
+
+- **Limitación técnica: No se obtiene una visión totalmente detallada del sistema a nivel de implementación fina (por ejemplo, clases o código específico), ya que las vistas arquitectónicas trabajan a un nivel más alto de abstracción.
+- **Deuda o riesgo: Si el sistema crece significativamente, los diagramas pueden requerir mantenimiento constante para mantenerse actualizados, lo que puede generar inconsistencias entre la documentación y la implementación real si no se gestionan adecuadamente.
+
+---
