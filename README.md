@@ -8,7 +8,7 @@ En este trabajo se analiza el sistema desde diferentes perspectivas con el objet
 
 ## 🚀 Objetivo de la actividad
 
-El objetivo principal es documentar la arquitectura del sistema mediante cuatro vistas:
+El objetivo principal es documentar mis decisiones de la arquitectura del sistema mediante cuatro vistas:
 
 - Vista lógica  
 - Vista de procesos  
