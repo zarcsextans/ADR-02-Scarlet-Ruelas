@@ -7,3 +7,16 @@
 | Estado | `Propuesto` |
 
 ---
+## Contexto
+
+Se está construyendo una aplicación de consola para un Sistema de Biblioteca Virtual destinada a la gestión interna de libros, préstamos y usuarios en pequeñas empresas. El sistema debe operar con un catálogo limitado pero consistente, permitiendo registrar la salida y devolución de libros de forma organizada.
+
+Las restricciones e influencias principales son:
+
+Entorno académico: Es un proyecto que debe demostrar el dominio práctico de los principios SOLID y el uso correcto de patrones arquitectónicos.
+
+Tiempo y equipo: El proyecto lo hago de manera individual con tiempos estimados para cada avance del proyecto.
+
+Tecnologías requeridas: Uso del ecosistema .NET (C#), ASP.NET, postgreSQL.
+
+---
