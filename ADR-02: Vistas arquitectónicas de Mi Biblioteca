@@ -56,8 +56,8 @@ Vista de Despliegue: Define cómo interactúan el ejecutable de la consola, el O
 
 | Alternativa | Por qué la descarté |
 |-------------|---------------------|
-| Aplicación monolítica sin capas | Dificulta el mantenimiento y genera mayor acoplamiento entre componentes. |
-| Aplicación de escritorio tradicional | Limita el acceso remoto y reduce la flexibilidad de despliegue. |
-| Arquitectura de microservicios | El nivel 3 (componentes) y nivel 4 (código) requieren un grado de detalle que aún no existe en el proyecto. Las 4 vistas del modelo 4+1 cubren mejor las necesidades actuales. |
+| Documentar únicamente la arquitectura en el ADR-01 sin crear un ADR nuevo | Se descartó porque el ADR-01 solo define la arquitectura base, pero no detalla las vistas arquitectónicas requeridas por la actividad. |
+| Usar un solo diagrama combinado en lugar de separar las 4 vistas | Se descartó porque mezclar todas las vistas en un solo diagrama reduce la claridad y contradice el enfoque de separación de preocupaciones. |
+| No incluir vista de procesos y enfocarse solo en estructura del sistema | Se descartó porque la vista de procesos es clave para entender el comportamiento en tiempo de ejecución del sistema. |
 
 ---
