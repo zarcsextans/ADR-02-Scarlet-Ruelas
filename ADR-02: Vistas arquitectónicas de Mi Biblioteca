@@ -20,3 +20,12 @@ Tiempo y equipo: El proyecto lo hago de manera individual con tiempos estimados 
 Tecnologías requeridas: Uso del ecosistema .NET (C#), ASP.NET, postgreSQL.
 
 ---
+## Decisión
+
+Se decidió utilizar una arquitectura por capas compuesta por:
+
+Web Application (ASP.NET Core MVC)
+API Application (ASP.NET Core Web API)
+Capa de Servicios
+Repository
+Base de Datos PostgreSQL
