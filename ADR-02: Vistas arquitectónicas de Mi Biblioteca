@@ -29,3 +29,35 @@ API Application (ASP.NET Core Web API)
 Capa de Servicios
 Repository
 Base de Datos PostgreSQL
+
+Además, se documentará el sistema mediante cuatro vistas arquitectónicas:
+
+Vista lógica
+Vista física
+Vista de procesos
+Vista de despliegue
+
+---
+### ¿Por qué?
+
+Cada vista resuelve un problema específico del desarrollo:
+
+Vista Lógica: Organiza las responsabilidades del software evitando acoplamientos dañinos.
+
+Vista de Procesos: Modela la concurrencia y el flujo de hilos en tareas delicadas como préstamos.
+
+Vista Física: Estructura la distribución real de proyectos y archivos dentro de la solución de Visual Studio.
+
+Vista de Despliegue: Define cómo interactúan el ejecutable de la consola, el ORM y el servidor de base de datos en el entorno de producción.
+
+---
+
+### Alternativas consideradas
+
+| Alternativa | Por qué la descarté |
+|-------------|---------------------|
+| Aplicación monolítica sin capas | Dificulta el mantenimiento y genera mayor acoplamiento entre componentes. |
+| Aplicación de escritorio tradicional | Limita el acceso remoto y reduce la flexibilidad de despliegue. |
+| Arquitectura de microservicios | El nivel 3 (componentes) y nivel 4 (código) requieren un grado de detalle que aún no existe en el proyecto. Las 4 vistas del modelo 4+1 cubren mejor las necesidades actuales. |
+
+---
